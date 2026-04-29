@@ -1,3 +1,5 @@
+/* GENERAL */
+
 body {
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin: 0px;
@@ -118,4 +120,29 @@ padding-top: 25px;
     padding-top: 25px;
 }
 
+/* QUOTE */
+
+.quote {
+    height: 375px;
+    background: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    font-size: 36px;
+    font-weight: 300;
+    gap: 25px;
+}
+
+.quote-credits {
+    align-self: center;
+    font-size: 36px;
+    padding-left: 650px;
+    font-weight: 500;
+}
 
