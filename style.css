@@ -30,3 +30,47 @@ font-weight: 500;
     font-size: 18px;
     font-weight:300
 }
+
+/* HERO */
+
+.hero {
+    height: 350px;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-top: ;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    gap: 10px;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#hero-main-text {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+img {
+    height: 200px;
+    width: auto;
+    box-shadow: 2px 4px 4px rgba(0,0,0,0.5);
+}
+
+#hero-sign-up {
+    display: flex;
+flex-basis: 10px;
+    padding: 3px;
+    flex-grow: 0;
+}
+
+
+
+
